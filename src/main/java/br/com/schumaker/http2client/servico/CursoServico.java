@@ -21,9 +21,9 @@ public class CursoServico {
 
     public List<Curso> listar() {
         List<Livro> livros = pegarLivros();
-        Curso java = new Curso("Java OO", "Conceitos b�sicos de OO", "12 horas", livros.get(0));
+        Curso java = new Curso("Java OO", "Conceitos basicos de OO", "12 horas", livros.get(0));
         Curso spring = new Curso("Spring", "Novidades do spring", "12 horas", livros.get(1));
-        Curso ejb = new Curso("EJB", "EJB avan�ado", "16 horas", livros.get(4));
+        Curso ejb = new Curso("EJB", "EJB avancado", "16 horas", livros.get(4));
         return List.of(java, spring, ejb);
     }
 }

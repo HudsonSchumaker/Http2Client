@@ -29,11 +29,11 @@ public class Principal {
                 .collect(Collectors.groupingBy(Turma::getCurso,
                         Collectors.filtering(a -> a.getInicio().equals(LocalDate.of(2019, 4, 3)), Collectors.toList())));
 
-        System.out.println("Rela��o de turmas por curso: " + turmasPorCurso);
+        System.out.println("Relacao de turmas por curso: " + turmasPorCurso);
 
         var aluno = alunoServico.listarPorCpf(4915774030L);
         aluno.ifPresentOrElse(System.out::println,
-                () -> System.out.println("N�o h� aluno cadastrado para este cpf"));
+                () -> System.out.println("Nao ha aluno cadastrado para este cpf"));
 
         var alunoRecuperado = alunoServico.listarPorCpf(43647814016L)
                 .or(() -> alunoServico.listarPorCpf(49157745030L))
@@ -41,6 +41,6 @@ public class Principal {
                 .or(() -> alunoServico.listarPorCpf(41189989042L));
 
         alunoRecuperado.ifPresentOrElse(System.out::println,
-                () -> System.out.println("N�o h� aluno cadastrado para este cpf"));
+                () -> System.out.println("Nao ha aluno cadastrado para este cpf"));
     }
 }
