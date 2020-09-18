@@ -1,5 +1,6 @@
 package br.com.schumaker.http2client.dao;
 
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.http.HttpClient;
@@ -29,7 +30,7 @@ public class LivroDAO {
         try {
             return criarHttpClient().send(criarRequisicao(),
                     HttpResponse.BodyHandlers.ofString());
-        } catch (Exception e) {
+        } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
