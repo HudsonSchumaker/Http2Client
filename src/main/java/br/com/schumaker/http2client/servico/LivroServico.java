@@ -5,6 +5,10 @@ import br.com.schumaker.http2client.modelo.Livro;
 import java.net.http.HttpResponse;
 import java.util.concurrent.CompletableFuture;
 
+/*
+* @author Hudson Schumaker
+*
+*/
 public class LivroServico {
 
     private LivroDAO livroDAO = new LivroDAO();
