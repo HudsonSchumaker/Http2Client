@@ -4,6 +4,10 @@ import br.com.schumaker.http2client.modelo.Aluno;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ *
+ * @author Hudson Schumaker
+ */
 public class AlunoServico {
 
     Aluno priscila = new Aluno("Priscila", 7670832029L);
