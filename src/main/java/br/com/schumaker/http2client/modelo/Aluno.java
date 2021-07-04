@@ -1,5 +1,9 @@
 package br.com.schumaker.http2client.modelo;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class Aluno {
 
     private String nome;
