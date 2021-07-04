@@ -8,6 +8,10 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.concurrent.CompletableFuture;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class LivroDAO {
 
     public HttpClient criarHttpClient() {
