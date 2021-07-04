@@ -6,6 +6,10 @@ import br.com.schumaker.http2client.modelo.Turma;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class TurmaServico {
 
     AlunoServico alunoServico = new AlunoServico();
