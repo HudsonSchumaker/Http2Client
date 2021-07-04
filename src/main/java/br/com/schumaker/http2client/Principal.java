@@ -8,6 +8,10 @@ import java.time.LocalDate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class Principal {
 
     public static void main(String... strings) {
