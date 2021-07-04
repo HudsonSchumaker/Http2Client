@@ -8,6 +8,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class CursoServico {
 
     LivroDAO livroDAO = new LivroDAO();
