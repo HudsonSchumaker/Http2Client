@@ -3,6 +3,10 @@ package br.com.schumaker.http2client.modelo;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class Turma {
 
     private LocalDate inicio;
